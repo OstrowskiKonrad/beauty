@@ -8,3 +8,11 @@ class HomePageView(TemplateView):
 
 class About(TemplateView):
     template_name = "about.html"
+
+
+class Portfolio(TemplateView):
+    template_name = "portfolio.html"
+
+
+class Clients(TemplateView):
+    template_name = "clients.html"
