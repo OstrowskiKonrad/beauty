@@ -16,3 +16,7 @@ class Portfolio(TemplateView):
 
 class Clients(TemplateView):
     template_name = "clients.html"
+
+
+class Offer(TemplateView):
+    template_name = "offer.html"
